@@ -48,3 +48,12 @@
     background-color: white;
     border-top: none;
 }
+#subscriber{
+    height: 300px;
+}
+#subscriber h6{
+    color:gray;
+}
+footer{
+    text-align: center;
+}

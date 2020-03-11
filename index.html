@@ -183,7 +183,7 @@
           <div class="card-body">
             <h5 class="card-title">Black Backpack</h5>
             <h5>$169</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
             <button class="buy-now-button">Buy Now >></button>
@@ -191,6 +191,26 @@
         </div>
       </div>
     </div>
+
+<!-- Subscribe Section, Horizontal and vertical center -->
+    <!-- here we use another div a packet. Because then 'd-flex justify-content-center'(https://getbootstrap.com/docs/4.4/utilities/flex/) consider the whole div as one child and set it on center otherwise each item set center Horizontally.check with and without the div -->
+    <!-- Then it has set Horizontally on center position.Now setting the alignment on center position vertically use 'd-flex align-items-center'(https://getbootstrap.com/docs/4.4/utilities/flex/) -->
+     <!-- generally 'input' tag takes the inline space for itself, it is not block level element.For taking the whole line like as block level element use 'form-control' class -->
+     
+    <div class="container orange-bg d-flex justify-content-center align-items-center" id="subscriber">
+      <div>
+        <h3>STAY IN TOUCH</h3>
+        <h6>Get updates on sales, specials and more</h6>
+        <input class="form-control" type="text">
+        <button class="buy-now-button">SUBMIT</button>
+      </div>  
+    </div>
+
+    <footer>
+      <small>©2020. Wisdom Commerce. All rights reserved</small>
+    </footer>
+
+  
 
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
